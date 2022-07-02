@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jacobgm/projects/jgmEditor/main.cpp
+ctype.h
+-
+stdio.h
+-
+stdlib.h
+-
+termios.h
+-
+unistd.h
+-
+

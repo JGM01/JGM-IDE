@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jacobgm/projects/jgmEditor/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/JGMEditor.dir/main.cpp.o -c /home/jacobgm/projects/jgmEditor/main.cpp",
+  "file": "/home/jacobgm/projects/jgmEditor/main.cpp"
+}
+]
