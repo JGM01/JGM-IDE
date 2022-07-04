@@ -6,8 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/home/jacobgm/projects/jgmEditor/main.cpp
+/home/jacobgm/projects/jgmEditor/include/terminal.cpp
+terminal.hpp
+/home/jacobgm/projects/jgmEditor/include/terminal.hpp
+
+/home/jacobgm/projects/jgmEditor/include/terminal.hpp
 ctype.h
+-
+errno.h
 -
 stdio.h
 -
@@ -17,4 +23,8 @@ termios.h
 -
 unistd.h
 -
+
+/home/jacobgm/projects/jgmEditor/src/main.cpp
+../include/terminal.cpp
+/home/jacobgm/projects/jgmEditor/include/terminal.cpp
 

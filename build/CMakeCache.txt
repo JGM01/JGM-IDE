@@ -341,6 +341,12 @@ SLURM_SRUN_COMMAND:FILEPATH=SLURM_SRUN_COMMAND-NOTFOUND
 //Path to a program.
 SVNCOMMAND:FILEPATH=SVNCOMMAND-NOTFOUND
 
+//Value Computed by CMake
+rvarago-hello-cmake_BINARY_DIR:STATIC=/home/jacobgm/projects/jgmEditor/build
+
+//Value Computed by CMake
+rvarago-hello-cmake_SOURCE_DIR:STATIC=/home/jacobgm/projects/jgmEditor
+
 
 ########################
 # INTERNAL cache entries
@@ -366,8 +372,6 @@ CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/bin/cpack
-//ADVANCED property for variable: CMAKE_CTEST_COMMAND
-CMAKE_CTEST_COMMAND-ADVANCED:INTERNAL=1
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
 //ADVANCED property for variable: CMAKE_CXX_COMPILER

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/JGMEditor.dir/main.cpp.o"
+  "CMakeFiles/JGMEditor.dir/src/main.cpp.o"
   "JGMEditor"
   "JGMEditor.pdb"
 )

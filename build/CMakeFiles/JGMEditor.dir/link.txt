@@ -1,1 +1,1 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/JGMEditor.dir/main.cpp.o  -o JGMEditor 
+/usr/bin/g++  -g   CMakeFiles/JGMEditor.dir/src/main.cpp.o  -o JGMEditor 

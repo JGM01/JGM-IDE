@@ -57,27 +57,27 @@ include CMakeFiles/JGMEditor.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/JGMEditor.dir/flags.make
 
-CMakeFiles/JGMEditor.dir/main.cpp.o: CMakeFiles/JGMEditor.dir/flags.make
-CMakeFiles/JGMEditor.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobgm/projects/jgmEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/JGMEditor.dir/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JGMEditor.dir/main.cpp.o -c /home/jacobgm/projects/jgmEditor/main.cpp
+CMakeFiles/JGMEditor.dir/src/main.cpp.o: CMakeFiles/JGMEditor.dir/flags.make
+CMakeFiles/JGMEditor.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobgm/projects/jgmEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/JGMEditor.dir/src/main.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JGMEditor.dir/src/main.cpp.o -c /home/jacobgm/projects/jgmEditor/src/main.cpp
 
-CMakeFiles/JGMEditor.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JGMEditor.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobgm/projects/jgmEditor/main.cpp > CMakeFiles/JGMEditor.dir/main.cpp.i
+CMakeFiles/JGMEditor.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JGMEditor.dir/src/main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobgm/projects/jgmEditor/src/main.cpp > CMakeFiles/JGMEditor.dir/src/main.cpp.i
 
-CMakeFiles/JGMEditor.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JGMEditor.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobgm/projects/jgmEditor/main.cpp -o CMakeFiles/JGMEditor.dir/main.cpp.s
+CMakeFiles/JGMEditor.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JGMEditor.dir/src/main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobgm/projects/jgmEditor/src/main.cpp -o CMakeFiles/JGMEditor.dir/src/main.cpp.s
 
 # Object files for target JGMEditor
 JGMEditor_OBJECTS = \
-"CMakeFiles/JGMEditor.dir/main.cpp.o"
+"CMakeFiles/JGMEditor.dir/src/main.cpp.o"
 
 # External object files for target JGMEditor
 JGMEditor_EXTERNAL_OBJECTS =
 
-JGMEditor: CMakeFiles/JGMEditor.dir/main.cpp.o
+JGMEditor: CMakeFiles/JGMEditor.dir/src/main.cpp.o
 JGMEditor: CMakeFiles/JGMEditor.dir/build.make
 JGMEditor: CMakeFiles/JGMEditor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jacobgm/projects/jgmEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable JGMEditor"
