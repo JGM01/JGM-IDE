@@ -1,13 +1,8 @@
-#include <ctype.h>
-#include <errno.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <termios.h>
-#include <unistd.h>
-
-struct termios orig_termios;
+#ifndef TERMINAL_HPP
+#define TERMINAL_HPP
 
 void die(const char *s);
 void disableRawMode();
 void enableRawMode();
 
+#endif
