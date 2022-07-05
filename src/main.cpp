@@ -1,6 +1,6 @@
-#include "../include/terminal.cpp"
-#include "../include/input.cpp"
-#include "../include/output.cpp"
+#include <terminal.cpp>
+#include <output.cpp>
+#include <input.cpp>
 
 int main() {
     enableRawMode();

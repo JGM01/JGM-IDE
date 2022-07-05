@@ -6,15 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/jacobgm/projects/jgmEditor/include/defines.hpp
+../headers/defines.hpp
 
-/home/jacobgm/projects/jgmEditor/include/input.cpp
+../headers/input.hpp
+
+../headers/output.hpp
+
+../headers/terminal.hpp
+
+../src/lib/input.cpp
 input.hpp
-/home/jacobgm/projects/jgmEditor/include/input.hpp
+-
 terminal.hpp
-/home/jacobgm/projects/jgmEditor/include/terminal.hpp
+-
 defines.hpp
-/home/jacobgm/projects/jgmEditor/include/defines.hpp
+-
 unistd.h
 -
 stdlib.h
@@ -22,19 +28,15 @@ stdlib.h
 errno.h
 -
 
-/home/jacobgm/projects/jgmEditor/include/input.hpp
-
-/home/jacobgm/projects/jgmEditor/include/output.cpp
+../src/lib/output.cpp
 output.hpp
-/home/jacobgm/projects/jgmEditor/include/output.hpp
+-
 unistd.h
 -
 
-/home/jacobgm/projects/jgmEditor/include/output.hpp
-
-/home/jacobgm/projects/jgmEditor/include/terminal.cpp
+../src/lib/terminal.cpp
 terminal.hpp
-/home/jacobgm/projects/jgmEditor/include/terminal.hpp
+-
 stdio.h
 -
 stdlib.h
@@ -44,13 +46,11 @@ termios.h
 unistd.h
 -
 
-/home/jacobgm/projects/jgmEditor/include/terminal.hpp
-
 /home/jacobgm/projects/jgmEditor/src/main.cpp
-../include/terminal.cpp
-/home/jacobgm/projects/jgmEditor/include/terminal.cpp
-../include/input.cpp
-/home/jacobgm/projects/jgmEditor/include/input.cpp
-../include/output.cpp
-/home/jacobgm/projects/jgmEditor/include/output.cpp
+terminal.cpp
+-
+output.cpp
+-
+input.cpp
+-
 

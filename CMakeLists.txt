@@ -11,7 +11,8 @@ set(EXEC JGMEditor)
 set(CMAKE_CXX_STANDARD 14)
 
 # I../includes
-include_directories(includes)
+include_directories(headers)
+include_directories(src/lib)
 
 # puts all .cpp files inside src to the SOURCES variable
 file(GLOB SOURCES src/*.cpp)

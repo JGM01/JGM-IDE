@@ -1,4 +1,4 @@
-#include "terminal.hpp"
+#include <terminal.hpp>
 
 #include <stdio.h>
 #include <stdlib.h>

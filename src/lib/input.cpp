@@ -1,6 +1,6 @@
-#include "input.hpp"
-#include "terminal.hpp"
-#include "defines.hpp"
+#include <input.hpp>
+#include <terminal.hpp>
+#include <defines.hpp>
 
 #include <unistd.h>
 #include <stdlib.h>
