@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/jacobgm/projects/jgmEditor/build",
-  "command": "/usr/bin/g++   -I/home/jacobgm/projects/jgmEditor/headers -I/home/jacobgm/projects/jgmEditor/src/lib  -g   -std=gnu++14 -o CMakeFiles/JGMEditor.dir/src/main.cpp.o -c /home/jacobgm/projects/jgmEditor/src/main.cpp",
+  "command": "/usr/bin/g++   -I../headers -I../src/lib  -g   -std=gnu++14 -o CMakeFiles/JGMEditor.dir/src/main.cpp.o -c /home/jacobgm/projects/jgmEditor/src/main.cpp",
   "file": "/home/jacobgm/projects/jgmEditor/src/main.cpp"
 }
 ]

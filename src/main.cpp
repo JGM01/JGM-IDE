@@ -1,6 +1,10 @@
-#include <terminal.cpp>
-#include <output.cpp>
-#include <input.cpp>
+#include "terminal.hpp"
+#include "output.hpp"
+#include "../headers/input.hpp"
+
+void initEditor() {
+    
+}
 
 int main() {
     enableRawMode();

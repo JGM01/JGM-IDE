@@ -1,6 +1,14 @@
 #ifndef TERMINAL_HPP
 #define TERMINAL_HPP
 
+#include <termios.h>
+
+struct editorConfig {
+    int screenrows;
+    int screencols;
+    struct termios orig_termios;
+};
+
 /**
  * @brief Safely exits the text-editor.
  * 
@@ -20,5 +28,14 @@ void disableRawMode();
  * byte-by-byte rather than at every '\n'.
  */
 void enableRawMode();
+
+/**
+ * @brief Get the row & col size of the window.
+ * 
+ * @param rows memory address representing number of rows.
+ * @param cols memory address representing number of columns.
+ * @return error number, if the method fails.
+ */
+int getWindowSize(int *rows, int *cols);
 
 #endif

@@ -3,7 +3,7 @@
 	{
 		"generator" : 
 		{
-			"name" : "Unix Makefiles"
+			"name" : "Ninja"
 		},
 		"paths" : 
 		{
@@ -34,7 +34,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-e532c332413234f603e2.json",
+			"jsonFile" : "cache-v2-087f8d4c1245b0d1cbc3.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -67,7 +67,7 @@
 				"responses" : 
 				[
 					{
-						"jsonFile" : "cache-v2-e532c332413234f603e2.json",
+						"jsonFile" : "cache-v2-087f8d4c1245b0d1cbc3.json",
 						"kind" : "cache",
 						"version" : 
 						{
